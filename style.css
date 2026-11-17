@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.heading {
+    background-color: #d9e6e2;
+    padding: 45px 15px;
+}
+.heading h1 {
+    font-size: 35px;
+}
+.main-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.post {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid #343a40;
+}
+footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .heading h1 {
+        font-size: 28px;
+    }
+
+    .main-img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 576px) {
+    .heading h1 {
+        font-size: 23px;
+    }
+
+    .heading p {
+        font-size: 14px;
+    }
+
+    .main-img {
+        height: 190px;
+    }
+}
